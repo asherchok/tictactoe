@@ -25,7 +25,9 @@ iOS Tic Tac Toe app coded in Swift.
 # Known Issues
 - Locking portrait mode works <strong>only</strong> on `TTTVC.swift`: `var supportedInterfaceOrientations does` not work on `MainVC.swift` and `SettingsVC.swift`.
 - Animations on `MainVC.swift` does not load up
-- `UISegmentedControl` toggle button crashes app upon trigger
+- SettingsVC:
+  - Background toggle button `UISegmentedControl` crashes app upon trigger
+  - Background toggle button do not show as <strong>ON</strong> or <strong>OFF</strong>
 # Would like to work on
 - Applied OOP to further enhance code readability:
   - Create a `GameLogic` class  that encapsulates the game logic operations of the tic tac toe interface 
